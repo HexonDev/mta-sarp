@@ -1,0 +1,16 @@
+<meta>
+    <download_priority_group>-60</download_priority_group>
+    
+    <script type="client" src="utilsC.lua" cache="false" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    <script type="client" src="tickets/traffic.lua" cache="false" />
+    <script type="client" src="tickets/parking.lua" cache="false" />
+
+    <script type="server" src="sourceS.lua" />
+
+    <file src="files/parking.png"/>
+    <file src="files/traffic.png"/>
+
+    <file src="files/sign.mp3"/>
+    <file src="files/paper-rip.mp3"/>
+</meta>

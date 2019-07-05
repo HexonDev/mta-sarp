@@ -1,0 +1,19 @@
+<meta>
+    <download_priority_group>-31</download_priority_group>
+    
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="sourceG.lua" type="shared" cache="false" />
+    
+    <export function="getPlayerLevel" type="shared" />
+    <export function="getAllAchievements" type="shared" />
+    
+    <export function="takePlayerXP" type="server" />
+    <export function="givePlayerXP" type="server" />
+    <export function="setPlayerXP" type="server" />
+    
+    <export function="loadPlayerAchievements" type="server" />
+    <export function="givePlayerAchievement" type="server" />
+    <export function="setPlayerAchievement" type="server" />
+    
+</meta>

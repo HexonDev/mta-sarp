@@ -1,0 +1,9 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <export function="createNPC" type="server" />
+    <export function="deleteNPC" type="server" />
+    <export function="getNPCTypeName" type="server" />
+    <export function="getNPCTypeCount" type="server" />
+    <export function="getNPCTypes" type="server" />
+    <download_priority_group>-38</download_priority_group>
+</meta>

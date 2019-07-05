@@ -1,0 +1,23 @@
+<meta>
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    <script type="client" src="utilsC.lua" cache="false" />
+    <script type="client" src="interactionsC.lua" cache="false" />
+    
+    <file src="fx/edge.fx" />
+    <file src="fx/wall.fx" />
+    <file src="fx/wall_mrt.fx" />
+    
+    <file src="icons/lock.png" />
+    <file src="icons/unlock.png" />
+    <file src="icons/heart.png" />
+    <file src="icons/cuff.png" />
+    <file src="icons/uncuff.png" />
+    <file src="icons/detector.png" />
+    <file src="icons/trunk.png" />
+    <file src="icons/icon.png" />
+    <file src="icons/wheelclamp.png" />
+    
+    <min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903" />
+    <download_priority_group>-46</download_priority_group>
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+	<file src="files/sewage.png" />
+	<file src="files/water.png" />
+
+	<script src="sourceG.lua" type="shared" />
+	<script src="sourceC.lua" type="client" />
+</meta>

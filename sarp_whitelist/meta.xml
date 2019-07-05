@@ -1,0 +1,10 @@
+<meta>
+	<script src="sourceS.lua" type="server" />
+
+	<export http="true" type="server" function="getList" />
+	<export http="true" type="server" function="toggleMode" />
+	<export http="true" type="server" function="toggleUser" />
+	<export http="true" type="server" function="addUser" />
+
+	<download_priority_group>-1</download_priority_group>
+</meta>

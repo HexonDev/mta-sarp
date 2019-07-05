@@ -1,0 +1,18 @@
+<meta>
+    <file src="files/chocolate.png" />
+    <file src="files/vanilla.png" />
+    <file src="files/strawberry.png" />
+    <file src="files/lemon.png" />
+    <file src="files/greenapple.png" />
+    <file src="files/mango.png" />
+    
+    <file src="files/cone1.png" />
+    <file src="files/cone2.png" />
+    
+    <file src="files/texture.jpg" />
+    
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="utilsC.lua" type="client" cache="false" />
+    <download_priority_group>-53</download_priority_group>
+</meta>

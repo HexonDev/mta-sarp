@@ -1,0 +1,91 @@
+<meta>
+    <download_priority_group>-6</download_priority_group>
+    
+    <oop>true</oop>
+    
+    <script type="client" src="Backend/Utils.lua" cache="false" />
+    <script type="client" src="Backend/Drawing.lua" cache="false" />
+    <script type="client" src="Backend/Render.lua" cache="false" />
+    <script type="client" src="Backend/Exports.lua" cache="false" />
+    
+    <script type="client" src="Frontend/Widget.lua" cache="false" />
+    <script type="client" src="Frontend/Rectangle.lua" cache="false" />
+    <script type="client" src="Frontend/TextField.lua" cache="false" />
+    <script type="client" src="Frontend/Button.lua" cache="false" />
+    <script type="client" src="Frontend/Image.lua" cache="false" />
+    <script type="client" src="Frontend/Input.lua" cache="false" />
+    
+    <script type="client" src="Frontend/Custom/CustomPanel.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomButton.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomInput.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomCheckbox.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomImageButton.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomList.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomLabel.lua" cache="false" />
+    <script type="client" src="Frontend/Custom/CustomDropDown.lua" cache="false" />
+    
+    <script type="client" src="Backend/Main.lua" />
+    
+    <export type="client" function="reMap" />
+    <export type="client" function="getResponsiveMultiplier" />
+    <export type="client" function="resp" />
+    <export type="client" function="respc" />
+    <export type="client" function="getMousePosition" />
+    <export type="client" function="isCursorWithinArea" />
+    <export type="client" function="capitalizeString" />
+    <export type="client" function="dxDrawBorderedText" />
+    <export type="client" function="dxDrawRoundedRectangle" />
+    
+    <export type="client" function="getRootWidget" />
+    <export type="client" function="addChild" />
+    <export type="client" function="removeChild" />
+    <export type="client" function="createRectangle" />
+    <export type="client" function="createButton" />
+    <export type="client" function="createImage" />
+    <export type="client" function="createTextField" />
+    <export type="client" function="createInput" />
+    <export type="client" function="createCustomPanel" />
+    <export type="client" function="createCustomButton" />
+    <export type="client" function="createCustomInput" />
+    <export type="client" function="createCustomCheckbox" />
+    <export type="client" function="createCustomImageButton" />
+    <export type="client" function="createCustomList" />
+    <export type="client" function="createCustomLabel" />
+    <export type="client" function="createCustomDropDown" />
+    <export type="client" function="getX" />
+    <export type="client" function="setX" />
+    <export type="client" function="getY" />
+    <export type="client" function="setY" />
+    <export type="client" function="getWidth" />
+    <export type="client" function="setWidth" />
+    <export type="client" function="getHeight" />
+    <export type="client" function="setHeight" />
+    <export type="client" function="getColor" />
+    <export type="client" function="setColor" />
+    <export type="client" function="getVisible" />
+    <export type="client" function="setVisible" />
+    <export type="client" function="getText" />
+    <export type="client" function="setText" />
+    <export type="client" function="getAlignX" />
+    <export type="client" function="setAlignX" />
+    <export type="client" function="getAlignY" />
+    <export type="client" function="setAlignY" />
+    <export type="client" function="getClip" />
+    <export type="client" function="setClip" />
+    <export type="client" function="getWordBreak" />
+    <export type="client" function="setWordBreak" />
+    <export type="client" function="getColorCoded" />
+    <export type="client" function="setColorCoded" />
+    <export type="client" function="getColors" />
+    <export type="client" function="setColors" />
+    <export type="client" function="getType" />
+    <export type="client" function="setType" />
+    <export type="client" function="getState" />
+    <export type="client" function="setState" />
+    <export type="client" function="getActiveItem" />
+    <export type="client" function="setActiveItem" />
+    <export type="client" function="getItems" />
+    <export type="client" function="setItems" />
+    <export type="client" function="getHoveredItem" />
+    <export type="client" function="setHoveredItem" />
+</meta>

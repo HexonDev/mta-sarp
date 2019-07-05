@@ -1,0 +1,40 @@
+local whitelist = {
+--  ["SERIAL SERIAL SERIAL SERIAL SERI"] = {"Név", Felléphet-e?, kezelő szint}
+	["575B9706754CE444F42A12FEC29BA3A1"] = {"Hexon", true, 0},
+	["38637680563E8AF8B85FEDC807B24083"] = {"Jayceon", true, 0},
+	["4A9A182963C289C571EDF0C2482DD5A3"] = {"Jayceon Laptop", true, 0},
+	["A7AFFD556B71B092D01258018AFC2993"] = {"Marlon", true, 0},
+	["2BB5E1140AC067FE4A47D96E382D55B2"] = {"TERKA", true, 0},
+	["4C7E26E506C831CC5985D3E37AA032B2"] = {"Lucifer", true, 0},
+	["36D2B3DB34519B1A38A9780042F7D0A1"] = {"Kyle", true, 0},
+   -- ["28B1833E43B802C59EE6EA8B475D2F13"] = {"Véletlenül sem Enigma", true, 0},
+	["28B1833E43B802C59EE6EA8B475D2F13"] = {"Patrik", true, 0},
+	["F8589F297AB8F8F4617A3B9EB2939053"] = {"Miskey", true, 0},
+	["08C375B8096196390DB011515E49E743"] = {"Malcolm", true, 0}
+} 
+
+local serverIsProtected = true
+
+addEventHandler("onPlayerJoin", root, function()
+	if serverIsProtected then
+		local playerSerial = getPlayerSerial(source)
+		if whitelist[playerSerial] and whitelist[playerSerial][2] then
+			outputChatBox("#FFFFFF[#32B3EFSARP #FFFFFF- #32B3EFWHITELIST#FFFFFF] #FFFFFF" .. getPlayerName(source) .. " #32B3EF(" .. whitelist[playerSerial][1] .. ")#FFFFFF csatlakozott a szerverre!", root, 0, 0, 0, true) 
+		else
+			outputChatBox("#FFFFFF[#32B3EFSARP #FFFFFF- #32B3EFWHITELIST#FFFFFF] #32B3EF" .. getPlayerName(source) .. " #FFFFFFmegpróbált csatlakozni a szerverre!", root, 0, 0, 0, true) 
+			kickPlayer(source, "Nem vagy fent az engedélyezettek listáján! ~SARP")
+		end
+	end
+end)
+
+function changeProtect(player, cmd)
+	if getElementData(player, "acc.adminLevel") > 8 then
+		serverIsProtected = not serverIsProtected
+		if serverIsProtected then
+			exports.global:sendMessageToAdmins(getPlayerName(player) .." bekapcsolta a whitelistet")
+		else
+			exports.global:sendMessageToAdmins(getPlayerName(player) .." kikapcsolta a whitelistet")
+		end
+	end
+end
+addCommandHandler("togprotect", changeProtect)

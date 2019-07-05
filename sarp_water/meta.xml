@@ -1,0 +1,5 @@
+<meta>
+    <script type="client" src="sourceC.lua" cache="false" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+    <download_priority_group>-11</download_priority_group>
+</meta>

@@ -1,0 +1,20 @@
+<meta>
+    <script src="utilsC.lua" type="client" cache="false"></script>
+    
+    <script src="sourceC.lua" type="client" cache="false"></script>
+    <script src="guiC.lua" type="client" cache="false"></script>
+    <script src="sourceS.lua" type="server"></script>
+    
+    
+    <script src="licenses/identity.lua" type="client" cache="false"></script>
+    <script src="licenses/driver.lua" type="client" cache="false"></script>
+    
+    <script src="exam/driver/sourceG.lua" type="shared" cache="false"></script>
+    <script src="exam/driver/driveC.lua" type="client" cache="false"></script>
+    <script src="exam/driver/examC.lua" type="client" cache="false"></script>
+    <script src="exam/driver/sourceS.lua" type="server"></script>
+    
+    <file src="files/identity.png" />
+    <file src="files/driver.png" />
+    <download_priority_group>-35</download_priority_group>
+</meta>

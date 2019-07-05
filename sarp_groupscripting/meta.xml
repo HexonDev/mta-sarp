@@ -1,0 +1,90 @@
+<meta>
+    <script type="server" src="taser/sourceS.lua" />
+    <script type="client" src="taser/sourceC.lua" cache="false" />
+    <file src="files/taser.txd" />
+    <file src="files/taser.dff" />
+    <file src="files/taser.ogg" />
+    <file src="files/empty.png" />
+    <file src="files/texturechanger.fx" />
+    
+    <script type="server" src="cuff/sourceS.lua" />
+    <script type="client" src="cuff/sourceC.lua" cache="false" />
+    <file src="files/standing_cuffed_back.ifp" />
+    <file src="files/standing_cuffed.ifp" />
+    <file src="files/walking_cuffed.ifp" />
+    <file src="files/cuff.dff" />
+    <file src="files/cuff.txd" />
+    <file src="files/handcuff.ogg" />
+    
+    <script type="shared" src="siren/sourceG.lua" cache="false" />
+    <script type="client" src="siren/sourceC.lua" cache="false" />
+    <script type="client" src="siren/settingsC.lua" cache="false" />
+    <script type="server" src="siren/sourceS.lua" />
+    <export function="getAllowedVehicles" type="shared" />
+    <export function="triggerSirenFunctions" type="client" />
+    
+    <script type="client" src="impound/utilC.lua" cache="false" />
+    <script type="client" src="impound/impoundC.lua" cache="false" />
+    <script type="client" src="impound/getC.lua" cache="false" />
+    <script type="server" src="impound/sourceS.lua" />
+    
+    <script type="shared" src="arrest/sourceG.lua" cache="false" />
+    <script type="client" src="arrest/sourceC.lua" cache="false" />
+    <script type="server" src="arrest/sourceS.lua" />
+    <export function="loadPlayerJail" type="server" />
+    
+    <script type="client" src="medicbag/sourceC.lua" cache="false" />
+    <script type="server" src="medicbag/sourceS.lua" />
+    
+    <script type="client" src="clamp/sourceC.lua" cache="false" />
+    <script type="server" src="clamp/sourceS.lua" />
+    <file src="clamp/circle.png" />
+    <file src="clamp/clamp.mp3" />
+    <export function="startWheelClampingAnimation" type="client" />
+    
+    <script type="client" src="cutter/sourceC.lua" cache="false" />
+    <script type="shared" src="cutter/sourceG.lua" cache="false" />
+    <script type="server" src="cutter/sourceS.lua" />
+    <file src="cutter/crashed.png" />
+    <file src="cutter/scissors.ogg" />
+    
+    <script type="client" src="detain/sourceC.lua" cache="false" />
+    <script type="server" src="detain/sourceS.lua" />
+
+    <script type="shared" src="drug/sourceG.lua" cache="false" />
+    <script type="client" src="drug/sourceC.lua" cache="false" />
+    <script type="server" src="drug/sourceS.lua" />
+    <export function="isInDrugMakeZone" type="client"/>
+    
+    <file src="siren/sounds/federal_signal_smart_1.wav" />
+    <file src="siren/sounds/federal_signal_smart_2.wav" />
+    <file src="siren/sounds/federal_signal_smart_3.wav" />
+    
+    <file src="siren/sounds/federal_signal_q_1.mp3" />
+    <file src="siren/sounds/federal_signal_q_2.mp3" />
+    <file src="siren/sounds/federal_signal_q_3.mp3" />
+    
+    <file src="siren/sounds/federal_signal_smart_horn.wav" />
+    <file src="siren/sounds/eq2b_1.wav" />
+    <file src="siren/sounds/eq2b_2.wav" />
+    <file src="siren/sounds/eq2b_3.wav" />
+    <file src="siren/sounds/whelen_ws2100_1.wav" />
+    <file src="siren/sounds/whelen_ws2100_2.wav" />
+    
+    <file src="siren/sounds/whelen_alternate_hilo.wav" />
+    <file src="siren/sounds/whelen_alternate_manual.wav" />
+    <file src="siren/sounds/whelen_alternate_mech.wav" />
+    <file src="siren/sounds/whelen_alternate_wail.wav" />
+    <file src="siren/sounds/whelen_alternate_warble.wav" />
+    <file src="siren/sounds/whelen_alternate_yelp.wav" />
+    <file src="siren/sounds/whelen_gamma_horn.wav" />
+    <file src="siren/sounds/whelen_gamma_powercall.wav" />
+    <file src="siren/sounds/whelen_gamma_priority.wav" />
+    <file src="siren/sounds/whelen_gamma_wail.wav" />
+    <file src="siren/sounds/whelen_gamma_yelp.wav" />
+    
+    <file src="siren/sounds/backup.mp3" />
+    
+    <min_mta_version client="1.5.2" server="1.5.2" />
+    <download_priority_group>-41</download_priority_group>
+</meta>

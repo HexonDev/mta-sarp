@@ -1,0 +1,46 @@
+<meta>
+    <download_priority_group>-40</download_priority_group>
+    
+    <file src="files/walkietalkie.png" />
+    <file src="files/duty.png" />
+    <file src="files/toggleSwitch/off.png" />
+    <file src="files/toggleSwitch/on.png" />
+    <file src="files/toggleSwitch/circle.png" />
+    <file src="files/vehicleTypes/Automobile.png" />
+    <file src="files/vehicleTypes/Bike.png" />
+    <file src="files/vehicleTypes/BMX.png" />
+    <file src="files/vehicleTypes/Boat.png" />
+    <file src="files/vehicleTypes/Helicopter.png" />
+    <file src="files/vehicleTypes/Plane.png" />
+    <file src="files/vehicleTypes/Quad.png" />
+    <file src="files/icons/home.png" />
+    <file src="files/icons/ranks.png" />
+    <file src="files/icons/members.png" />
+    <file src="files/icons/vehicles.png" />
+    <file src="files/icons/other.png" />
+    <file src="files/icons/settings.png" />
+    <file src="files/icons/arrow.png" />
+    <file src="files/headerLogo.png" />
+    
+    <script type="shared" src="sourceG.lua" />
+    <script type="server" src="sourceS.lua" cache="false" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <export type="shared" function="getGroups" />
+    <export type="shared" function="getGroupTypes" />
+    <export type="shared" function="addPlayerGroup" />
+    <export type="shared" function="removePlayerGroup" />
+    <export type="shared" function="setPlayerLeader" />
+    <export type="shared" function="isPlayerLeaderInGroup" />
+    <export type="shared" function="isPlayerInGroup" />
+    <export type="shared" function="getPlayerGroups" />
+    <export type="shared" function="setPlayerRank" />
+    <export type="shared" function="getPlayerRank" />
+    <export type="shared" function="getGroupPrefix" />
+    <export type="shared" function="getGroupName" />
+    <export type="shared" function="isPlayerHavePermission" />
+    <export type="shared" function="getGroupMembers" />
+    
+    <export type="server" function="loadPlayerGroups" />
+    <export type="server" function="setGroupMoney" />
+</meta>

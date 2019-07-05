@@ -1,0 +1,7 @@
+<meta>
+	<download_priority_group>999</download_priority_group>
+
+	<min_mta_version server="1.5.3" client="1.5.3" cache="false" />
+
+	<script type="client" src="sourceC.lua" cache="false"/>
+</meta>

@@ -1,0 +1,21 @@
+<meta>
+    <file src="files/heavybreathing.wav" />
+    <file src="files/cross.png" />
+    <file src="files/death.mp3" />
+    <file src="files/blackwhite.fx" />
+    <file src="files/deathup.mp3" />
+    <file src="files/coffin.txd" />
+    <file src="files/coffin.dff" />
+    <file src="files/coffin.col" />
+    <file src="files/vin.png" />
+    <file src="files/Roboto.ttf" />
+    <file src="files/RobotoB.ttf" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    <script src="medicC.lua" type="client" cache="false" />
+    <script src="medicS.lua" type="server" />
+    
+    <min_mta_version client="1.5.5" server="1.5.5" />
+    <download_priority_group>-49</download_priority_group>
+</meta>

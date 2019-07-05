@@ -1,0 +1,159 @@
+<meta>
+    <download_priority_group>-8</download_priority_group>
+    
+    <min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <export function="toggleHUD" type="client" />
+    <export function="isHudVisible" type="client" />
+    <export function="isHudElementVisible" type="client" />
+    <export function="getResponsiveMultipler" type="client" />
+    
+    <script type="shared" src="widgets/speedo/sourceG.lua" cache="false" />
+    <script type="client" src="widgets/speedo/sourceC.lua" cache="false" />
+    <file src="widgets/speedo/files/seatbelt.wav" />
+    <file src="widgets/speedo/files/mainBg.png" />
+    <file src="widgets/speedo/files/ledDisplay.png" />
+    <file src="widgets/speedo/files/ledDisplay2.png" />
+    <file src="widgets/speedo/files/lefticons_glow.png" />
+    <file src="widgets/speedo/files/righticons_glow.png" />
+    <export function="getTheFuelTankTable" type="shared" />
+    <export function="getTheFuelTankSizeOfVehicle" type="shared" />
+    <export function="getVehicleOverrideLightsEx" type="client" />
+    <export function="getConsumption" type="client" />
+    <export function="getBoardDatas" type="client" />
+    
+    <script type="client" src="scoreboard/sourceC.lua" cache="false" />
+    
+    <script type="client" src="infobox/sourceC.lua" cache="false" />
+    <script type="server" src="infobox/sourceS.lua" />
+    <export type="client" function="showInfobox" />
+    <export type="server" function="showInfobox" />
+    
+    <script type="client" src="widgets/walkietalkie/sourceC.lua" cache="false" />
+    <export function="showWalkieTalkie" type="client" />
+    <export function="switchChannel" type="client" />
+    
+    <file src="widgets/walkietalkie/files/walkietalkie.png" />
+    <file src="widgets/walkietalkie/files/stationswitch.mp3" />
+    <file src="widgets/walkietalkie/files/mute.wav" />
+    <file src="widgets/walkietalkie/files/unmute.wav" />
+    <file src="widgets/walkietalkie/files/alert.wav" />
+    <file src="widgets/walkietalkie/files/beep.wav" />
+    
+    <script type="client" src="widgets/chat/sourceC.lua" cache="false" />
+    
+    <script type="client" src="widgets/siren/sourceC.lua" cache="false" />
+    <file src="widgets/siren/files/panel.png" />
+    <file src="widgets/siren/files/sound_on.png" />
+    <file src="widgets/siren/files/sound_off.png" />
+    <file src="widgets/siren/files/lights_on.png" />
+    <file src="widgets/siren/files/lights_off.png" />
+    <file src="widgets/siren/files/settings.png" />
+    
+    <script type="client" src="widgets/alert/sourceC.lua" cache="false" />
+    <script type="server" src="widgets/alert/sourceS.lua" />
+    <export type="client" function="showAlert" />
+    <export type="server" function="showAlert" />
+    
+    <script type="client" src="widgets/radar/sourceG.lua" cache="false" />
+    <script type="client" src="widgets/radar/sourceC.lua" cache="false" />
+    <script type="client" src="widgets/radar/gps/vehicleNodes.lua" />
+    <script type="client" src="widgets/radar/gps/sourceC.lua" cache="false" />
+    
+    <export type="client" function="addCustomBlip" />
+    <!-- addCustomBlip({x, y, z, "icon", farShow|boolean, size|14.5, color|tocolor}) -->
+    <export type="client" function="delCustomBlip" />
+    <!-- delCustomBlip(id) => Az id-t az addCustomBlip returnolja vissza -->
+    <export type="client" function="showMap" />
+    
+    <file src="widgets/radar/files/loader.png" />
+    <file src="widgets/radar/files/blur.fx" />
+    <file src="widgets/radar/files/map.png" />
+    <file src="widgets/radar/files/arrow.png" />
+    
+    <file src="widgets/radar/files/blips/autosiskola.png" />
+    <file src="widgets/radar/files/blips/mine.png" />
+    <file src="widgets/radar/files/blips/cross.png" />
+    <file src="widgets/radar/files/blips/north.png" />
+    <file src="widgets/radar/files/blips/target.png" />
+    <file src="widgets/radar/files/blips/player.png" />
+    <file src="widgets/radar/files/blips/airport.png" />
+    <file src="widgets/radar/files/blips/varoshaza.png" />
+    <file src="widgets/radar/files/blips/petrol.png" />
+    <file src="widgets/radar/files/blips/pd.png" />
+    <file src="widgets/radar/files/blips/hospital.png" />
+    <file src="widgets/radar/files/blips/border.png" />
+    <file src="widgets/radar/files/blips/cp.png" />
+    <file src="widgets/radar/files/blips/carshop.png" />
+    <file src="widgets/radar/files/blips/templom.png" />
+    <file src="widgets/radar/files/blips/restaurant.png" />
+    <file src="widgets/radar/files/blips/weapon.png" />
+    <file src="widgets/radar/files/blips/casino.png" />
+    <file src="widgets/radar/files/blips/binco.png" />
+    <file src="widgets/radar/files/blips/boat.png" />
+    <file src="widgets/radar/files/blips/bank.png" />
+    <file src="widgets/radar/files/blips/bar.png" />
+    <file src="widgets/radar/files/blips/wrench.png" />
+    <file src="widgets/radar/files/blips/factory.png" />
+    
+    <file src="widgets/radar/files/gps/dot.png" />
+    <file src="widgets/radar/files/gps/left.png" />
+    <file src="widgets/radar/files/gps/right.png" />
+    <file src="widgets/radar/files/gps/forward.png" />
+    <file src="widgets/radar/files/gps/around.png" />
+    <file src="widgets/radar/files/gps/end.png" />
+    <file src="widgets/radar/files/gps/refresh.png" />
+    
+    <file src="widgets/radar/files/gps/sounds/1/ding.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/erkezes.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/a_celhoz.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/egyenes.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/1.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/2.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/300.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/600.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/balra.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/fordulj.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/forduljvissza.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/gpslost.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/jobbra.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/kilometert.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/majd.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/menj.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/metert.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/tobb_mint.ogg" />
+    <file src="widgets/radar/files/gps/sounds/1/ujratervezes.ogg" />
+    
+    <file src="files/lights.png" />
+    <file src="files/blur.fx" />
+    <file src="files/vin.png" />
+    <file src="files/vin2.png" />
+    <file src="files/editor.mp3" />
+    <file src="files/a1.png" />
+    <file src="files/corner.png" />
+    <file src="files/icons/save.png" />
+    <file src="files/icons/exit.png" />
+    <file src="files/icons/musicoff.png" />
+    <file src="files/icons/musicon.png" />
+    <file src="files/icons/soundoff.png" />
+    <file src="files/icons/soundon.png" />
+    <file src="files/icons/reset.png" />
+    <file src="files/icons/trash.png" />
+    <file src="files/highlight.ogg" />
+    <file src="files/moneychange.ogg" />
+    <file src="files/icons2/heart.png" />
+    <file src="files/icons2/shield.png" />
+    <file src="files/icons2/hunger.png" />
+    <file src="files/icons2/thirst.png" />
+    <file src="files/icons2/resize.png" />
+    <file src="files/icons2/drop.png" />
+    <file src="files/icons2/oxygen.png" />
+    <file src="files/logo.png" />
+    <file src="files/logo1.png" />
+    <file src="files/logo2.png" />
+    <file src="files/logo1g.png" />
+    <file src="files/logo2g.png" />
+</meta>

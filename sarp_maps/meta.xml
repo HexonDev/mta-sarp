@@ -1,0 +1,14 @@
+<meta>
+
+    <map src="public/sarp_police_front.map" />
+    <map src="public/sarp_pershing_square.map" />
+
+    <map src="group/sarp_service.map" />
+    <map src="group/sarp_turkish.map" />
+    
+    <script src="mapEditorScriptingExtension_c.lua" type="client" />
+    <script src="mapEditorScriptingExtension_s.lua" type="server" />
+    <script src="sourceC.lua" type="client" />
+    
+    <download_priority_group>-12</download_priority_group>
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+    <download_priority_group>-7</download_priority_group>
+    
+    <script src="sourceS.lua" type="server" />
+    
+    <export function="toLog" type="server" />
+    <export function="logEconomy" type="server" />
+    <export function="logItemAction" type="server" />
+</meta>

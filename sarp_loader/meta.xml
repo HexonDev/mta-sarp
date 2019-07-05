@@ -1,0 +1,14 @@
+<meta>
+    <download_priority_group>-37</download_priority_group>
+    
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/circle.png" />
+    <file src="files/circle_glow.png" />
+    <file src="files/circle_check.png" />
+    <file src="files/logo.png" />
+    
+    <export function="showTheLoadScreen" type="server" />
+    <export function="showTheLoadScreen" type="client" />
+</meta>

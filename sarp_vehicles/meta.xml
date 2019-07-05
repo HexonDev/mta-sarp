@@ -1,0 +1,25 @@
+<meta>
+    <download_priority_group>-25</download_priority_group>
+    
+    <min_mta_version client="1.5.0" server="1.5.0" />
+    
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/RobotoB.ttf" />
+    
+    <file src="files/handbrake.wav" />
+    <file src="files/turnsignal.ogg" />
+    
+    <export type="shared" function="processLicensePlate" />
+    
+    <export type="server" function="makeVehicle" />
+    <export type="server" function="getLoadedVehicles" />
+    <export type="server" function="loadPlayerVehicles" />
+    <export type="server" function="deleteVehicle" />
+    <export type="server" function="deleteVehicles" />
+    <export type="server" function="deleteGroupVehicles" />
+    <export type="server" function="getPlayerVehiclesCount" />
+</meta>

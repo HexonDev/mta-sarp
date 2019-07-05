@@ -1,0 +1,14 @@
+<meta>
+    <download_priority_group>-27</download_priority_group>
+    
+    <script src="sourceG.lua" type="shared" />
+    <script src="sourceS.lua" type="server" />
+    <script src="spawnerS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="spawnerC.lua" type="client" cache="false" />
+    
+    <export function="getJobInfo" type="shared" />
+    
+    <export function="createVehiclePoint" type="client" />
+    <export function="destroyVehiclePoint" type="client" />
+</meta>

@@ -1,0 +1,49 @@
+<meta>
+    <download_priority_group>-28</download_priority_group>
+    
+    <script src="coreS.lua" type="server" />
+    <script src="coreC.lua" type="client" />
+    <script src="soundC.lua" type="client" />
+    <script src="panelC.lua" type="client" />
+    <script src="factionS.lua" type="server" />
+    <script src="trainingC.lua" type="client" />
+    <script src="trainingS.lua" type="server" />
+    <script src="buyC.lua" type="client" />
+    <script src="buyS.lua" type="server" />
+    
+    <file src="mods/dog1.txd" />
+    <file src="mods/dog1.dff" />
+    <file src="mods/dog2.txd" />
+    <file src="mods/dog2.dff" />
+    <file src="mods/dog3.txd" />
+    <file src="mods/dog3.dff" />
+    <file src="mods/dog4.txd" />
+    <file src="mods/dog4.dff" />
+    <file src="mods/dog5.txd" />
+    <file src="mods/dog5.dff" />
+    <file src="mods/dog6.txd" />
+    <file src="mods/dog6.dff" />
+    <file src="mods/dog7.dff" />
+    <file src="mods/dog7.txd" />
+    
+    <file src="sounds/dogwhistle.ogg" />
+    <file src="sounds/dogwhof.ogg" />
+    <file src="sounds/attack.ogg" />
+    <file src="sounds/stroking.ogg" />
+    
+    <file src="imgs/kutyapanel.png" />
+    
+    <file src="fonts/BebasNeue.otf" />
+    <file src="fonts/CenturyGothicRegular.ttf" />
+    
+    <export function="followTarget" type="shared" />
+    <export function="attackTarget" type="shared" />
+    <export function="stayHere" type="shared" />
+    <export function="getAllDogs" type="server" />
+    <export function="isDogSpawned" type="server" />
+    <export function="isDogSpawned" type="client" />
+    <export function="getCurrentDogSkin" type="shared" />
+    <export function="spawnDog" type="server" />
+    <export function="despawnDog" type="server" />
+    <export function="loadCharacterDogs" type="server" />
+</meta>

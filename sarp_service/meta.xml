@@ -1,0 +1,12 @@
+<meta>
+    <script src="sourceG.lua" type="shared" cache="false"/>
+    <script src="sourceC.lua" type="client" cache="false"/>
+    <script src="utilsC.lua" type="client" cache="false"/>
+    <script src="sourceS.lua" type="server"/>
+
+    <export function="isElementInServiceZone" type="client"/>
+
+    <file src="files/wrench.png"/>
+    <file src="files/repair.mp3"/>
+    <file src="files/ratchet.wav"/>
+</meta>

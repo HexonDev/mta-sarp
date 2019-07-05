@@ -1,0 +1,14 @@
+<meta>
+    <file src="assets/mta-helper.fx"/>
+
+    <script src="shaders/water/waterC.lua" type="client"/>
+    <script src="shaders/bloom/bloomC.lua" type="client"/>
+    <file src="assets/water.fx"/>
+    <file src="assets/smallnoise3d.dds" type="client" />
+	<file src="assets/cube_env256.dds" type="client" />    
+    <file src="assets/addBlend.fx" type="client" /> 
+    <file src="assets/blurV.fx" type="client" /> 
+    <file src="assets/blurH.fx" type="client" /> 
+    <file src="assets/brightPass.fx" type="client" /> 
+    <file src="assets/cube_env256.dds" type="client" /> 
+</meta>

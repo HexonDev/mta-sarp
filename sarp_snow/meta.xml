@@ -1,0 +1,29 @@
+<meta>
+	<file src="files/shaders/texturechanger.fx" />
+	<file src="files/shaders/ground.fx" />
+	<file src="files/shaders/trees.fx" />
+	<file src="files/shaders/naughtytrees.fx" />
+	<file src="files/shaders/mta-helper.fx" />
+	
+	<file src="files/textures/smallnoise.dds" />
+	<file src="files/textures/snow.dds" />
+	<file src="files/textures/snowroad.dds" />
+	<file src="files/textures/snowroad2.dds" />
+	<file src="files/textures/junction.dds" />
+	<file src="files/textures/junction2.dds" />
+	<file src="files/textures/pave.dds" />
+	<file src="files/textures/pave2.dds" />
+	<file src="files/textures/shadow.dds" />
+	<file src="files/textures/train.dds" />
+	<file src="files/textures/tram.dds" />
+	<file src="files/textures/rock.dds" />
+	<file src="files/textures/wall1.dds" />
+	<file src="files/textures/dirttrack1.dds" />
+	<file src="files/textures/dirttrack_xcross.dds" />
+	<file src="files/textures/snowflake.dds" />
+
+	<file src="files/snowball.txd" />
+	<file src="files/snowball.dff" />
+
+	<script type="client" src="sourceC.lua" cache="false" />
+</meta>

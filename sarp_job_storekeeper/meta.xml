@@ -1,0 +1,25 @@
+<meta>
+    <file src="files/sign.mp3" />
+    <file src="files/sticker.png" />
+    <file src="files/notes.png" />
+    <file src="files/cheerybox01.png" />
+    <file src="files/texturechanger.fx" />
+    <file src="files/stripe.png" />
+    <file src="files/moveCrate.png" />
+    <file src="files/putDownCrate.png" />
+    <file src="files/pickUpCrate.png" />
+    <file src="files/selection.png" />
+    <file src="files/pickUpCarrier.png" />
+    <file src="files/vignette.png" />
+    <file src="files/sign3.png" />
+    <file src="files/sign2.png" />
+    <file src="files/sign1.png" />
+    
+    <export type="client" function="getCurrentInteractionList" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903" />
+    <download_priority_group>-55</download_priority_group>
+</meta>

@@ -1,0 +1,10 @@
+<meta>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <export type="client" function="toggleControl" />
+    <export type="server" function="toggleControl" />
+    <download_priority_group>-18</download_priority_group>
+</meta>

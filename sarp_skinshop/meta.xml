@@ -1,0 +1,9 @@
+<meta>
+	<download_priority_group>-62</download_priority_group>
+
+	<script type="shared" src="sourceG.lua" cache="false" />
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" cache="false" />
+
+    
+</meta>

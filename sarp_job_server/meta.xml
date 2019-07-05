@@ -1,0 +1,14 @@
+<meta>
+    <file src="files/sewage.png" />
+    <file src="files/water.png" />
+    <file src="files/shirt.png" />
+    <file src="files/tray.png" />
+    
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="drawC.lua" type="client" cache="false" />
+    <script src="utilsC.lua" type="client" cache="false" />
+    
+    <download_priority_group>-56</download_priority_group>
+</meta>

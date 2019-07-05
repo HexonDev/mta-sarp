@@ -1,0 +1,9 @@
+<meta>
+    <file src="files/vin.png" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <min_mta_version client="1.5.5" server="1.5.5" />
+    <download_priority_group>-33</download_priority_group>
+</meta>

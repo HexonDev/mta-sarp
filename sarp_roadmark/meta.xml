@@ -1,0 +1,73 @@
+<meta>
+	<min_mta_version client="1.3.0-9.04431" server="1.3.0-9.04570" />
+	
+	<script type="shared" src="sourceG.lua" cache="false" />
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" cache="false" />
+	
+	<file src="files/Roboto.ttf" />
+	<file src="files/RobotoL.ttf" />
+	
+	<file src="files/sounds/highlight.mp3" />
+	<file src="files/sounds/select.mp3" />
+	<file src="files/sounds/select2.mp3" />
+	<file src="files/sounds/category.mp3" />
+	<file src="files/sounds/place.mp3" />
+	<file src="files/sounds/delete.mp3" />
+	<file src="files/sounds/fail.mp3" />
+	<file src="files/sounds/rotate.mp3" />
+	
+	<file src="files/icons2/move.png" />
+	<file src="files/icons2/rotate.png" />
+	<file src="files/icons2/scale.png" />
+	<file src="files/icons2/normal.png" />
+	<file src="files/icons2/impossible.png" />
+	
+	<file src="files/icons/section1.png" />
+	<file src="files/icons/section2.png" />
+	<file src="files/icons/section3.png" />
+	
+	<file src="files/icons/edit.png" />
+	<file src="files/icons/copy.png" />
+	<file src="files/icons/exit.png" />
+	<file src="files/icons/save.png" />
+	<file src="files/icons/lock.png" />
+	<file src="files/icons/unlock.png" />
+	<file src="files/icons/snapoffr.png" />
+	<file src="files/icons/snap1r.png" />
+	<file src="files/icons/snap2r.png" />
+	<file src="files/icons/snap3r.png" />
+	<file src="files/icons/admin.png" />
+	<file src="files/icons/delete.png" />
+	<file src="files/icons/trash.png" />
+	<file src="files/icons/move.png" />
+	<file src="files/icons/rotate.png" />
+	<file src="files/icons/scale.png" />
+	<file src="files/icons/color.png" />
+	<file src="files/colorpalette.png" />
+	
+	<file src="files/marks/1/1.png" />
+	<file src="files/marks/1/2.png" />
+	<file src="files/marks/1/3.png" />
+	<file src="files/marks/1/4.png" />
+	<file src="files/marks/1/5.png" />
+	<file src="files/marks/1/6.png" />
+	<file src="files/marks/1/7.png" />
+	<file src="files/marks/1/8.png" />
+	
+	<file src="files/marks/2/1.png" />
+	<file src="files/marks/2/2.png" />
+	<file src="files/marks/2/3.png" />
+	<file src="files/marks/2/4.png" />
+	<file src="files/marks/2/5.png" />
+	<file src="files/marks/2/6.png" />
+	<file src="files/marks/2/7.png" />
+	
+	<file src="files/marks/3/1.png" />
+	<file src="files/marks/3/2.png" />
+	<file src="files/marks/3/3.png" />
+	<file src="files/marks/3/4.png" />
+	
+	<file src="files/stripe/stripe.png" />
+	<file src="files/stripe/creation.png" />
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+    <download_priority_group>-19</download_priority_group>
+    
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <export function="showAlert" type="server" />
+    <export function="showAlert" type="client" />
+</meta>

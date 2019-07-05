@@ -1,0 +1,19 @@
+<meta>
+	<download_priority_group>-9</download_priority_group>
+	
+	<script src="sourceS.lua" type="server" />
+	<script src="sourceC.lua" type="client" cache="false" />
+
+	<script src="commands/playerS.lua" type="server" />
+	<script src="commands/vehicleS.lua" type="server" />
+	<script src="commands/developerS.lua" type="server" />
+	<script src="commands/otherS.lua" type="server" />
+	
+	<export type="server" function="addAdminCommand" />
+	<export type="client" function="addAdminCommand" />
+	
+	<export http="true" type="server" function="getResourceList" />
+	<export http="true" type="server" function="resourceAction" />
+	<export http="true" type="server" function="restartAllRes" />
+	<export http="true" type="server" function="ucpAction" />
+</meta>

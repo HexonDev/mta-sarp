@@ -1,0 +1,11 @@
+*.exe
+*.dll
+*.lnk
+*.luac
+*.db
+*.keys
+*.dff
+*.txd
+*.col
+*.sarp
+other/forumavatar.psd

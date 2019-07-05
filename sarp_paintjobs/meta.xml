@@ -1,0 +1,14 @@
+<meta>
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <file src="files/changer.fx" />
+    
+    <file src="files/paintjobs/596/sheriff1.png" />
+    <file src="files/paintjobs/596/sheriff2.png" />
+    <file src="files/paintjobs/598/sheriff1.png" />
+    <file src="files/paintjobs/598/sheriff2.png" />
+    <file src="files/paintjobs/525/lsc.png" />
+    <file src="files/paintjobs/427/sheriff1.png" />
+    <download_priority_group>-51</download_priority_group>
+</meta>

@@ -1,0 +1,36 @@
+<meta>
+    <download_priority_group>-32</download_priority_group>
+    
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    
+    <script src="UtilC.lua" type="client" />
+    
+    <script src="elements/logo.lua" type="client" />
+    <script src="elements/menu.lua" type="client" />
+    <script src="elements/overview.lua" type="client" />
+    <script src="elements/character.lua" type="client" />
+    <script src="elements/property.lua" type="client" />
+    <script src="elements/settings.lua" type="client" />
+    
+    
+    <file src="files/icons/home.png" />
+    <file src="files/icons/award.png" />
+    <file src="files/icons/money.png" />
+    <file src="files/icons/settings.png" />
+    <file src="files/icons/user.png" />
+    <file src="files/icons/home.png" />
+    <file src="files/icons/herbal.png" />
+    <file src="files/icons/experience.png" />
+    
+    <file src="files/icons/car.png" />
+    <file src="files/icons/bank.png" />
+    <file src="files/icons/coins.png" />
+    
+    <file src="files/icons/clock.png" />
+    <file src="files/man.png" />
+    <file src="files/group.png" />
+    <file src="files/interface.png" />
+    <file src="files/screw.png" />
+    
+</meta>

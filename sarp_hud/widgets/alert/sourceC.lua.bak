@@ -1,0 +1,138 @@
+local visibleAlerts = 4
+local alerts = {}
+
+local boxHeight = respc(64)
+local marginOffset = respc(5)
+local iconSize = respc(48)
+
+function showAlert(type, msg, msg2)
+	if not (type and msg) then
+		return
+	end
+
+	if msg2 and utf8.len(msg2) <= 0 then
+		msg2 = nil
+	end
+
+	if #alerts >= visibleAlerts then
+		if #alerts >= visibleAlerts + 1 then
+			table.remove(alerts, 1)
+		end
+
+		alerts[1].fadeOutTick = getTickCount()
+
+		for i = 1, visibleAlerts do
+			if alerts[i] then
+				alerts[i].moveDownTick = getTickCount()
+			end
+		end
+	end
+
+	local id = #alerts + 1
+	alerts[id] = {}
+
+	if utf8.sub(type, 1, 1) == ":" then
+		local data = split(type, ";")
+
+		type = data[2]
+
+		alerts[id].icon = data[1]
+		alerts[id].color = {tonumber(data[3]), tonumber(data[4]), tonumber(data[5])}
+	else
+		alerts[id].icon = alertTypes[type][2]
+		alerts[id].color = alertTypes[type][3]
+	end
+
+	local messageWidth
+	if msg2 then
+		messageWidth = math.max(dxGetTextWidth(msg, 0.9, Roboto14), dxGetTextWidth(msg2 or "", 0.8, Roboto14)) + 40
+	else
+		messageWidth = dxGetTextWidth(msg, 0.8, Roboto14) + 40
+	end
+
+	local tileWidth = iconSize + messageWidth
+
+	alerts[id].message = msg
+	alerts[id].message2 = msg2
+	alerts[id].width = tileWidth
+
+	alerts[id].fadeInTick = getTickCount()
+	alerts[id].fadeOutTick = alerts[id].fadeInTick + 1000 + ((msg and utfLen(msg) or 0) + (msg2 and utfLen(msg2) or 0)) * 125
+	alerts[id].yOffset = (boxHeight + marginOffset) * (visibleAlerts - id)
+
+	if isHudElementVisible("alert") then
+		playSound(alertTypes[type][4])
+	end
+
+	if msg2 then
+		outputConsole("[" .. alertTypes[type][1] .. "]: " .. msg)
+		outputConsole("[" .. alertTypes[type][1] .. "]: " .. msg2)
+	else
+		outputConsole("[" .. alertTypes[type][1] .. "]: " .. msg)
+	end
+end
+addEvent("showAlert", true)
+addEventHandler("showAlert", getRootElement(), showAlert)
+
+render.alert = function (x, y)
+	if #alerts > 0 then
+		local tickCount = getTickCount()
+
+		if alerts[1] then
+			if tickCount >= alerts[1].fadeOutTick then
+				if (tickCount - alerts[1].fadeOutTick) / 350 > 1 then
+					table.remove(alerts, 1)
+
+					for i = 1, visibleAlerts do
+						if alerts[i] then
+							alerts[i].moveDownTick = tickCount
+						end
+					end
+				end
+			end
+		end
+
+		for i = 1, visibleAlerts do
+			local alert = alerts[i]
+
+			if alert then
+				local alpha = 0
+
+				if tickCount > alert.fadeInTick and tickCount <= alert.fadeOutTick then
+					alpha = interpolateBetween(0, 0, 0, 1, 0, 0, (tickCount - alert.fadeInTick) / 350, "Linear")
+				elseif tickCount > alert.fadeOutTick then
+					alpha = interpolateBetween(1, 0, 0, 0, 0, 0, (tickCount - alert.fadeOutTick) / 350, "Linear")
+				end
+
+				if alerts[i] then
+					if alert.moveDownTick and tickCount > alert.moveDownTick then
+						alert.yOffset = interpolateBetween(alert.yOffset, 0, 0, (boxHeight + marginOffset) * (visibleAlerts - i), 0, 0, (tickCount - alert.moveDownTick) / 300, "Linear")
+					end
+
+					local y2 = y + alert.yOffset
+					local alpha2 = 255 * alpha
+
+					dxDrawRectangle(x, y2, alert.width, boxHeight, tocolor(50, 50, 50, 200 * alpha))
+					dxDrawRectangle(x + 2, y2 + 2, alert.width - 4, boxHeight - 4, tocolor(25, 25, 25, 175 * alpha))
+					dxDrawRectangle(x, y2 + boxHeight - 2, interpolateBetween(alert.width, 0, 0, 0, 0, 0, (getTickCount() - alert.fadeInTick) / (alert.fadeOutTick - alert.fadeInTick), "Linear"), 2, tocolor(alert.color[1], alert.color[2], alert.color[3], alpha2))
+				
+					local iconSizeEx = iconSize * 0.75
+					local iconOffset = (boxHeight - iconSizeEx) / 2
+
+					dxDrawImage(math.floor(x + iconOffset), math.floor(y2 + iconOffset), iconSizeEx, iconSizeEx, alert.icon, 0, 0, 0, tocolor(alert.color[1], alert.color[2], alert.color[3], alpha2))
+
+					if alert.message2 then
+						dxDrawText(alert.message, x + iconSize + 20, y2 + respc(10), 0, 0, tocolor(200, 200, 200, alpha2), 0.9, Roboto14, "left", "top", false, false, false, true)
+						dxDrawText(alert.message2, x + iconSize + 20, y2, 0, y2 + boxHeight - respc(10), tocolor(200, 200, 200, alpha2), 0.8, Roboto14, "left", "bottom", false, false, false, true)
+					else
+						dxDrawText(alert.message, x + iconSize + 20, y2, 0, y2 + boxHeight, tocolor(200, 200, 200, alpha2), 0.8, Roboto14, "left", "center", false, false, false, true)
+					end
+				end
+			end
+		end
+
+		return true
+	else
+		return false
+	end
+end

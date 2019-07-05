@@ -1,0 +1,46 @@
+<meta>
+	<download_priority_group>-63</download_priority_group>
+
+	<script type="client" src="sourceC.lua" cache="false" />
+
+	<file src="files/base.png" />
+	<file src="files/taskbar.png" />
+	<file src="files/mainbuttons.png" />
+	<file src="files/menu.png" />
+	<file src="files/mapmarker.png" />
+	<file src="files/cloud.png" />
+
+	<file src="files/apps/settings.png" />
+	<file src="files/apps/contacts.png" />
+	<file src="files/apps/phone.png" />
+	<file src="files/apps/sms.png" />
+
+	<file src="files/arrow.png" />
+	<file src="files/arrow2.png" />
+	<file src="files/x.png" />
+	<file src="files/check.png" />
+
+	<file src="files/off.png" />
+	<file src="files/on.png" />
+	<file src="files/circle.png" />
+
+	<file src="files/wallpaper_icon.png" />
+	<file src="files/phone_icon.png" />
+	<file src="files/comment_icon.png" />
+
+	<file src="files/fade.png" />
+	<file src="files/wallpapers/1.png" />
+	<file src="files/wallpapers/2.png" />
+	<file src="files/wallpapers/3.png" />
+	<file src="files/wallpapers/4.png" />
+	<file src="files/wallpapers/5.png" />
+
+	<file src="files/addcontact.png" />
+	<file src="files/addcontacthover.png" />
+
+	<file src="files/call.png" />
+	<file src="files/numcircle.png" />
+	<file src="files/outicon.png" />
+	<file src="files/inicon.png" />
+	<file src="files/missedicon.png" />
+</meta>

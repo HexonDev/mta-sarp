@@ -1,0 +1,7 @@
+<meta>
+    <file src="window.png" />
+    <file src="dirt.png" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    <export function="getElevatorID" type="client" />
+    <download_priority_group>-54</download_priority_group>
+</meta>

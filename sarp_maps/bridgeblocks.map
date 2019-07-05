@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+    <object id="object (cn2_roadblock04ld) (1)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="2766.8999" posY="403.39999" posZ="9" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (cn2_roadblock04ld) (2)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="1703.8" posY="394.29999" posZ="32.6" rotX="0" rotY="0" rotZ="162"></object>
+    <object id="object (cn2_roadblock04ld) (3)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="1685.6" posY="400.5" posZ="32.6" rotX="0" rotY="0" rotZ="161.999"></object>
+    <object id="object (cn2_roadblock04ld) (4)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="529.59998" posY="459.5" posZ="19.9" rotX="0" rotY="0" rotZ="212"></object>
+    <object id="object (cn2_roadblock04ld) (5)" breakable="true" interior="0" alpha="155" model="4517" doublesided="false" scale="1" dimension="0" posX="-188.2" posY="290" posZ="12.9" rotX="0" rotY="0" rotZ="162"></object>
+    <object id="object (cn2_roadblock04ld) (6)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="-1433.4" posY="780.59998" posZ="47.7" rotX="0" rotY="0" rotZ="136"></object>
+    <object id="object (cn2_roadblock04ld) (7)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="-1443.7" posY="790.79999" posZ="47.7" rotX="0" rotY="0" rotZ="136"></object>
+    <object id="object (cn2_roadblock04ld) (8)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="-2671" posY="1573.1" posZ="63.7" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (cn2_roadblock04ld) (9)" breakable="true" interior="0" alpha="255" model="4517" doublesided="false" scale="1" dimension="0" posX="-2686" posY="1573.3" posZ="63.5" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (DockBarr1_LA) (1)" breakable="true" interior="0" alpha="255" model="3578" doublesided="false" scale="1" dimension="0" posX="-2694.7" posY="1570.9" posZ="62.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (2)" breakable="true" interior="0" alpha="255" model="3578" doublesided="false" scale="1" dimension="0" posX="-1498.2" posY="589.09998" posZ="34.4" rotX="0" rotY="0" rotZ="306"></object>
+</map>

@@ -1,0 +1,24 @@
+<meta>
+    <download_priority_group>-29</download_priority_group>
+    
+    <min_mta_version server="1.5.3" client="1.5.3" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <export type="client" function="sendLocalMessage" />
+    <export type="server" function="sendLocalMessage" />
+    
+    <export type="client" function="sendLocalMeAction" />
+    <export type="server" function="sendLocalMeAction" />
+    
+    <export type="client" function="sendLocalDoAction" />
+    <export type="server" function="sendLocalDoAction" />
+    
+    <export type="client" function="sendLocalAmeAction" />
+    <export type="server" function="sendLocalAmeAction" />
+    
+    <file src="files/megaphone.ifp" />
+    <file src="files/radionoise.wav" />
+    <file src="files/megaphone.wav" />
+</meta>

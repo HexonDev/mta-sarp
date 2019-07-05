@@ -1,0 +1,5 @@
+<meta>
+	<info author="Malcolm:)" type="script"/>
+	<script src="script.lua" type="server"/>
+	<export function="LoadHandling" type="server"/>
+</meta>

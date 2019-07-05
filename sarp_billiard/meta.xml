@@ -1,0 +1,36 @@
+<meta>
+    <download_priority_group>-30</download_priority_group>
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <file src="files/startgame.png" />
+    <file src="files/k_pool.txd" />
+    
+    <file src="files/sounds/stick.wav" />
+    <file src="files/sounds/hit.wav" />
+    <file src="files/sounds/wall.wav" />
+    <file src="files/sounds/fall.wav" />
+    
+    <file src="files/images/cross.png" />
+    <file src="files/images/1.png" />
+    <file src="files/images/2.png" />
+    <file src="files/images/3.png" />
+    <file src="files/images/4.png" />
+    <file src="files/images/5.png" />
+    <file src="files/images/6.png" />
+    <file src="files/images/7.png" />
+    <file src="files/images/8.png" />
+    <file src="files/images/9.png" />
+    <file src="files/images/10.png" />
+    <file src="files/images/11.png" />
+    <file src="files/images/12.png" />
+    <file src="files/images/13.png" />
+    <file src="files/images/14.png" />
+    <file src="files/images/15.png" />
+    <file src="files/images/16.png" />
+    
+    <export type="client" function="getCurrentInteractionList" />
+    
+    <min_mta_version server="1.5.3" client="1.5.3" />
+</meta>

@@ -1,0 +1,32 @@
+<meta>
+    <download_priority_group>-16</download_priority_group>
+    
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <file src="files/texturechanger.fx" />
+
+    <file src="files/hospwin3_LAe.png" />
+    <file src="files/hospwin2_LAe.png" />
+    <file src="files/hospwin1_LAe.png" />
+    <file src="files/carparkwall1_256.png" />
+    <file src="files/hospwall1.png" />
+    <file src="files/marinadoor1_256.png" />
+    
+    <file src="files/bloodpool_64.png" />
+    <file src="files/bubbles.png" />
+    <file src="files/collisionsmoke.png" />
+    <file src="files/coronastar.png" />
+    <file src="files/fireball6.png" />
+    <file src="files/headlight.png" />
+    <file src="files/headlight1.png" />
+    <file src="files/lamp_shad_64.png" />
+    <file src="files/particleskid.png" />
+    <file src="files/smoke.png" />
+    <file src="files/smokeII_3.png" />
+    <file src="files/vehiclelights128.png" />
+    <file src="files/vehiclelightson128.png" />
+    <file src="files/vehicleshatter128.png" />
+    <file src="files/plateback.png" />
+    
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

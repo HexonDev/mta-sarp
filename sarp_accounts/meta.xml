@@ -1,0 +1,18 @@
+<meta>
+    <file src="files/switch/off.png" />
+    <file src="files/switch/on.png" />
+    <file src="files/switch/circle.png" />
+    <file src="files/logo.png" />
+    <file src="files/sanandreas.ogg" />
+    <file src="files/welcome.wav" />
+    <file src="files/login.mp3" />
+    
+    <script type="client" src="sourceC.lua" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    
+    <export type="server" function="getPlayerFromCharacterID" />
+    <export type="server" function="getLastCharacterData" />
+    
+    <min_mta_version server="1.5.2" client="1.5.2" />
+    <download_priority_group>-58</download_priority_group>
+</meta>

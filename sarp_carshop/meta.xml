@@ -1,0 +1,7 @@
+<meta>
+    <script src="utilC.lua" type="client" />
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceG.lua" type="shared" />
+    <download_priority_group>-34</download_priority_group>
+</meta>

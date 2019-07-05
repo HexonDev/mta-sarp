@@ -1,0 +1,131 @@
+body {
+	margin: 20px;
+	padding: 0px;
+	background: #030910;
+	color: white;
+	font: 0.8em "Roboto", Arial, sans-serif; }
+
+
+.lettercell_first, .lettercell {
+	width: 50px;
+	font-size: 2em;
+	font-weight: bold;
+	vertical-align: top;
+	padding-left: 8px;
+	color: #32b3ef;
+}
+
+.lettercell {
+	border-top: 2px solid black;
+}
+
+.letterrowcontentcell {
+	border-top: 2px solid black;
+}
+
+.resourcecell {
+	width: 33%;
+}
+
+.resourcelisttable {
+	width:100%;
+}
+
+#searcharea {
+	position:absolute;
+	top: 0px;
+	right:0px;
+	left:0px;
+	height: 23px;
+	background:#081727;
+	color:#FFFFFF;
+	padding:7px;
+}
+
+#resourceinfo {
+	position: absolute;
+	left:70%;
+	top: 36px;
+	right: 0px;
+	bottom: 0px;
+	background: #081727;
+	color: #FFFFFF;
+}
+
+#resourceinfotopbar {
+	overflow: auto;
+	background: #0b1d32;
+	width:100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#bottombar {
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	right:0px;
+	height: 25px;
+	overflow: auto;
+	background: #0b1d32;
+	width:100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1f3044; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2b4a70; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #153d6e; 
+}
+
+input[type="text"] {
+	box-sizing: border-box;
+	margin: 0 0 5px;
+	padding: 5px;
+	border: 1px solid #243c5a;
+	border-radius: 1.5em;
+	background: #1d2d40;
+	color: white;
+	resize: none;
+	outline: none;
+}
+
+select {
+	box-sizing: border-box;
+	margin: 0 0 5px;
+	padding: 5px;
+	border: 1px solid #243c5a;
+	border-radius: 1.5em;
+	background: #1d2d40;
+	color: white;
+	resize: none;
+	outline: none;
+}
+
+input[type="button"] {
+	box-sizing: border-box;
+	margin: 0 0 5px;
+	padding: 5px;
+	border: 1px solid #243c5a;
+	border-radius: 1em;
+	background: #243c5a;
+	color: white;
+	resize: none;
+	outline: none;
+}
+
+input[type="button"]:hover {
+	background: #294465;
+	border-color: #294465;
+}

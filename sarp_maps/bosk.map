@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (hub_graffitti) (1)" breakable="true" interior="0" alpha="255" model="17969" doublesided="false" scale="0.68000001" dimension="0" posX="1991.7" posY="-1721.2" posZ="13.7" rotX="0" rotY="0" rotZ="180.25"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (1)" breakable="true" interior="0" alpha="255" model="2121" doublesided="false" scale="1" dimension="0" posX="1992.4" posY="-1723.7" posZ="13.1" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (3)" breakable="true" interior="0" alpha="255" model="2121" doublesided="false" scale="1" dimension="0" posX="1992.5" posY="-1722.9" posZ="13.1" rotX="0" rotY="0" rotZ="58"></object>
+    <object id="object (CJ_RockingChair) (1)" breakable="true" interior="0" alpha="255" model="2096" doublesided="false" scale="1" dimension="0" posX="2017.9" posY="-1704.9" posZ="13.2" rotX="0" rotY="0" rotZ="246.5"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (4)" breakable="true" interior="0" alpha="255" model="2121" doublesided="false" scale="1" dimension="0" posX="2018" posY="-1704.1" posZ="13.7" rotX="0" rotY="0" rotZ="278.5"></object>
+    <object id="object (CJ_FOLDCHAIR) (1)" breakable="true" interior="0" alpha="255" model="1810" doublesided="false" scale="1" dimension="0" posX="2016.9" posY="-1701" posZ="12.5" rotX="0" rotY="0" rotZ="276"></object>
+    <object id="object (CJ_FOLDCHAIR) (2)" breakable="true" interior="0" alpha="255" model="1810" doublesided="false" scale="1" dimension="0" posX="2016.7" posY="-1700.4" posZ="13.1" rotX="0" rotY="270" rotZ="319.749"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (6)" breakable="true" interior="0" alpha="255" model="2121" doublesided="false" scale="1" dimension="0" posX="1992.3" posY="-1742.4" posZ="13.1" rotX="0" rotY="0" rotZ="57.997"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (7)" breakable="true" interior="0" alpha="255" model="2121" doublesided="false" scale="1" dimension="0" posX="1991.7" posY="-1743" posZ="13.1" rotX="0" rotY="0" rotZ="17.997"></object>
+    <object id="object (parkbench1) (1)" breakable="true" interior="0" alpha="255" model="1280" doublesided="false" scale="1" dimension="0" posX="1992" posY="-1735.8" posZ="12.9" rotX="0" rotY="0" rotZ="181"></object>
+    <object id="object (Stonebench1) (1)" breakable="true" interior="0" alpha="255" model="1256" doublesided="false" scale="1" dimension="0" posX="2008.1" posY="-1726.9" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bussign1) (1)" breakable="true" interior="0" alpha="255" model="1229" doublesided="false" scale="1" dimension="0" posX="2006.9" posY="-1724.8" posZ="14.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bin1) (1)" breakable="true" interior="0" alpha="255" model="1300" doublesided="false" scale="1" dimension="0" posX="2008.1" posY="-1724.8" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_FOLDCHAIR) (4)" breakable="true" interior="0" alpha="255" model="1810" doublesided="false" scale="1" dimension="0" posX="2011.4" posY="-1716.6" posZ="12.5" rotX="0" rotY="0" rotZ="318.493"></object>
+    <object id="object (parktable1) (1)" breakable="true" interior="0" alpha="255" model="1281" doublesided="false" scale="1" dimension="0" posX="2013.8" posY="-1698.8" posZ="13.3" rotX="0" rotY="0" rotZ="32"></object>
+    <object id="object (Gen_doorSHOP01) (1)" breakable="true" interior="0" alpha="255" model="1493" doublesided="false" scale="1" dimension="0" posX="2016.1" posY="-1717.6" posZ="13.1" rotX="0" rotY="0" rotZ="238"></object>
+    <object id="object (CJ_FOLDCHAIR) (5)" breakable="true" interior="0" alpha="255" model="1810" doublesided="false" scale="1" dimension="0" posX="2011" posY="-1715.8" posZ="12.5" rotX="0" rotY="0" rotZ="265.488"></object>
+    <object id="object (DYN_TABLE_2) (1)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="1988.6" posY="-1719.9" posZ="15" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (2)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="2014.4" posY="-1713.8" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (phonebooth1) (1)" breakable="true" interior="0" alpha="255" model="1216" doublesided="false" scale="1" dimension="0" posX="1992" posY="-1738.3" posZ="13.2" rotX="0" rotY="0" rotZ="89.25"></object>
+</map>

@@ -1,0 +1,179 @@
+<meta>
+    <download_priority_group>-5</download_priority_group>
+    
+    <script src="sourceC.lua" type="client" />
+    
+    <export type="client" function="loadFont" />
+    <export type="client" function="getFontsDetail" />
+    <export type="client" function="getFontAwesomeIcon" />
+    
+    <file src="fonts/ThermalPrinter.ttf" />
+    <file src="fonts/counter2.ttf" />
+    <file src="fonts/counter.ttf" />
+    <file src="fonts/CourierNew.ttf" />
+    <file src="fonts/VT323.ttf" />
+    <file src="fonts/hand.otf" />
+    <file src="fonts/ocr.ttf" />
+    <file src="fonts/CapitalDaren.ttf" />
+    <file src="fonts/OpenSans-Light.ttf" />
+    <file src="fonts/OpenSans-Regular.ttf" />
+    <file src="fonts/ChaletLondon1960.ttf" />
+    <file src="fonts/FontAwesome.ttf" />
+    <file src="fonts/SARP.ttf" />
+    <file src="fonts/metro.ttf" />
+    <file src="fonts/Themify.ttf" />
+    <file src="fonts/LicensePlate.ttf" />
+    <file src="fonts/gtaFont2.ttf" />
+    <file src="fonts/LEDCalculator.ttf" />
+    <file src="fonts/gtaFont.ttf" />
+    <file src="fonts/chaletcomprime.ttf" />
+    <file src="fonts/lunabar.ttf" />
+    <file src="fonts/BebasNeue.otf" />
+    <file src="fonts/CenturyGothicRegular.ttf" />
+    <file src="fonts/CenturyGothicBold.ttf" />
+    <file src="fonts/Roboto-Bold.ttf" />
+    <file src="fonts/Roboto-Black.ttf" />
+    <file src="fonts/Roboto-Regular.ttf" />
+    <file src="fonts/Roboto-Light.ttf" />
+    <file src="fonts/Roboto-Light-Italic.ttf" />
+    <file src="fonts/SignPainter-HouseScript-Regular.ttf" />
+    
+    <file src="audio/interface/1.ogg" />
+    <file src="audio/interface/2.ogg" />
+    <file src="audio/interface/3.ogg" />
+    <file src="audio/interface/4.ogg" />
+    <file src="audio/interface/5.ogg" />
+    <file src="audio/interface/6.ogg" />
+    <file src="audio/interface/7.ogg" />
+    <file src="audio/interface/8.ogg" />
+    <file src="audio/interface/9.ogg" />
+    <file src="audio/interface/10.ogg" />
+    <file src="audio/interface/11.ogg" />
+    <file src="audio/interface/12.ogg" />
+    <file src="audio/interface/click.ogg" />
+    <file src="audio/interface/hover.ogg" />
+    
+    <file src="audio/scoreboard/popup.wav" />
+    <file src="audio/alert/bulle.wav" />
+    <file src="audio/alert/star.wav" />
+    <file src="audio/alert/error.wav" />
+    <file src="audio/alert/victory.wav" />
+    
+    <file src="audio/achievements/newach.ogg" />
+    
+    <file src="audio/account/music1.mp3" />
+    
+    <file src="audio/medical/hearth.ogg" />
+    
+    <file src="audio/jobs/assemblers/szereles.ogg" />
+    <file src="audio/jobs/miner/pickaxe.mp3" />
+    <file src="audio/jobs/miner/mining.mp3" />
+    
+    <file src="audio/admin/error.ogg" />
+    <file src="audio/admin/inmsg.ogg" />
+    <file src="audio/admin/outmsg.ogg" />
+    <file src="audio/admin/minimize.ogg" />
+    <file src="audio/admin/restore.ogg" />
+    <file src="audio/admin/notify.ogg" />
+    
+    <file src="audio/vehicles/lockout.ogg" />
+    <file src="audio/vehicles/lockin.ogg" />
+    <file src="audio/vehicles/lightswitch.ogg" />
+    <file src="audio/vehicles/ovbe.ogg" />
+    <file src="audio/vehicles/ovki.ogg" />
+    <file src="audio/vehicles/starter.ogg" />
+    
+    <file src="audio/loader/loading.ogg" />
+    
+    <file src="images/round.png" />
+    
+    <file src="images/licenses/driving.png" />
+    <file src="images/licenses/identity.png" />
+    
+    <file src="images/dashboard/icons/allat.png" />
+    <file src="images/dashboard/icons/beallitasok.png" />
+    <file src="images/dashboard/icons/karakter.png" />
+    <file src="images/dashboard/icons/teljesitmeny.png" />
+    <file src="images/dashboard/icons/vagyon.png" />
+    <file src="images/dashboard/arrow.png" />
+    <file src="images/dashboard/carbg.jpg" />
+    <file src="images/dashboard/caricon.png" />
+    <file src="images/dashboard/inticon.png" />
+    
+    <file src="images/map/location.png" />
+    
+    <file src="images/carshop/coin.png" />
+    <file src="images/carshop/close.png" />
+    
+    <file src="images/account/charselect.png" />
+    <file src="images/account/charcreate.png" />
+    
+    <file src="images/cross_x.png" />
+    <file src="images/sarplogo_big.png" />
+    <file src="images/logo.png" />
+    <file src="images/tick.png" />
+    
+    <file src="images/blurbg.png" />
+    <file src="images/point.png" />
+    
+    <file src="images/loader/1c.png" />
+    <file src="images/loader/1b.png" />
+    <file src="images/loader/2b.png" />
+    <file src="images/loader/2c.png" />
+    
+    <file src="images/medical/ekg1.png" />
+    <file src="images/medical/ekg2.png" />
+    <file src="images/medical/hearth.png" />
+    
+    <file src="images/faction/rangok.png" />
+    <file src="images/faction/vehicles.png" />
+    <file src="images/faction/duty.png" />
+    <file src="images/faction/fizetesek.png" />
+    <file src="images/faction/leiras.png" />
+    <file src="images/faction/tagok.png" />
+    <file src="images/faction/leader.png" />
+    <file src="images/faction/minus.png" />
+    <file src="images/faction/plus.png" />
+    <file src="images/faction/save.png" />
+    
+    <file src="images/jobs/miner/crosshair.png" />
+    <file src="images/jobs/miner/pickaxe.png" />
+    <file src="images/jobs/miner/stone1.png" />
+    <file src="images/jobs/miner/stone2.png" />
+    <file src="images/jobs/miner/stone0.png" />
+    <file src="images/jobs/miner/zsak.png" />
+    
+    <file src="images/jobs/lumberjack/fa.png" />
+    <file src="images/jobs/lumberjack/kesztyu.png" />
+    <file src="images/jobs/lumberjack/cross.png" />
+    <file src="images/jobs/lumberjack/balta.png" />
+    
+    <file src="images/jobs/assemblers/loading.png" />
+    
+    <file src="images/jobs/1.png" />
+    <file src="images/jobs/2.png" />
+    <file src="images/jobs/3.png" />
+    <file src="images/jobs/4.png" />
+    <file src="images/jobs/5.png" />
+    <file src="images/jobs/6.png" />
+    
+    <file src="images/alert/aban.png" />
+    <file src="images/alert/aduty.png" />
+    <file src="images/alert/ajail.png" />
+    <file src="images/alert/akick.png" />
+    <file src="images/alert/error.png" />
+    <file src="images/alert/info.png" />
+    <file src="images/alert/round.png" />
+    <file src="images/alert/warning.png" />
+    <file src="images/alert/success.png" />
+    
+    <file src="images/achievement/medal.png" />
+    
+    <file src="images/scoreboard/users.png" />
+    
+    <file src="images/cars/infernus.png" />
+    
+    <file src="images/nametag/type.png" />
+    <file src="images/nametag/console.png" />
+    <file src="images/nametag/afk.png" />
+</meta>

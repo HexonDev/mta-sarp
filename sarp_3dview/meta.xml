@@ -1,0 +1,22 @@
+<meta>
+    <min_mta_version client="1.5.0" server="1.5.0" />
+    
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <file src="ped.fx" />
+    <file src="vehicle.fx" />
+    
+    <export type="client" function="processSkinPreview" />
+    <export type="client" function="setSkinProjection" />
+    <export type="client" function="setSkinAlpha" />
+    <export type="client" function="setSkin" />
+    <export type="client" function="rotateSkin" />
+    
+    <export type="client" function="processVehiclePreview" />
+    <export type="client" function="setVehicleProjection" />
+    <export type="client" function="setVehicleAlpha" />
+    <export type="client" function="setPreviewVehicleModel" />
+    <export type="client" function="rotateVehicle" />
+    <export type="client" function="toggleVehicleDamages" />
+    <download_priority_group>-20</download_priority_group>
+</meta>

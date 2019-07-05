@@ -1,0 +1,20 @@
+1: head
+2: neck
+3: spine
+4: pelvis
+5: left clavicle
+6: right clavicle
+7: left shoulder
+8: right shoulder
+9: left elbow
+10: right elbow
+11: left hand
+12: right hand
+13: left hip
+14: right hip
+15: left knee
+16: right knee
+17: left ankle
+18: right ankle
+19: left foot
+20: right foot

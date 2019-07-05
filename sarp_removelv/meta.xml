@@ -1,0 +1,4 @@
+<meta>
+    <script type="client" src="sourceC.lua" />
+    <download_priority_group>-10</download_priority_group>
+</meta>

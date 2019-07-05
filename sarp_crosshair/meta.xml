@@ -1,0 +1,9 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <file src="texreplace.fx" />
+    <file src="crosshairs/1.png" />
+    <file src="crosshairs/2.png" />
+    <file src="crosshairs/3.png" />
+    <file src="crosshairs/4.png" />
+    <download_priority_group>-42</download_priority_group>
+</meta>

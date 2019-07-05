@@ -1,0 +1,25 @@
+<meta>
+    <file src="files/sounds/explosion2.wav" />
+    <file src="files/sounds/explosion1.wav" />
+    <file src="files/sounds/taser_shoot.wav" />
+    <file src="files/sounds/deagle_reload.wav" />
+    <file src="files/sounds/deagle_shoot.wav" />
+    <file src="files/sounds/rifle_reload.wav" />
+    <file src="files/sounds/rifle_shoot.wav" />
+    
+    <file src="files/models/pickaxe.txd" />
+    <file src="files/models/pickaxe.dff" />
+    <file src="files/models/desert_eagle.txd" />
+    <file src="files/models/desert_eagle.dff" />
+    <file src="files/models/sniper.txd" />
+    <file src="files/models/sniper.dff" />
+    <file src="files/models/cuntgun.txd" />
+    <file src="files/models/cuntgun.dff" />
+    <file src="files/models/silenced.txd" />
+    <file src="files/models/silenced.dff" />
+    <file src="files/models/colt45.txd" />
+    <file src="files/models/colt45.dff" />
+    
+    <script type="client" src="sourceC.lua" cache="false" />
+    <download_priority_group>-43</download_priority_group>
+</meta>

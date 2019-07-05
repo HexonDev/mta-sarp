@@ -1,0 +1,47 @@
+<meta>
+    <min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903" />
+    
+    <script type="shared" src="sourceG.lua" cache="false" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    
+    <export type="server" function="syncTime" />
+    <export type="server" function="changeWeather" />
+    <export type="server" function="setServerWeather" />
+    <export type="server" function="setServerTime" />
+    
+    <file src="files/shaders/bottom.fx" />
+    <file src="files/shaders/clear.fx" />
+    <file src="files/shaders/clouds.fx" />
+    <file src="files/shaders/top.fx" />
+    
+    <file src="files/models/cloud.dff" />
+    <file src="files/models/cloud.txd" />
+    
+    <!--<file src="files/textures/marci.png" />-->
+    <file src="files/textures/stars.dds" />
+    <file src="files/textures/clouds.dds" />
+    <file src="files/textures/clouds_normal.jpg" />
+    <file src="files/textures/moon/0.png" />
+    <file src="files/textures/moon/1.png" />
+    <file src="files/textures/moon/2.png" />
+    <file src="files/textures/moon/3.png" />
+    <file src="files/textures/moon/4.png" />
+    <file src="files/textures/moon/5.png" />
+    <file src="files/textures/moon/6.png" />
+    <file src="files/textures/moon/7.png" />
+    <file src="files/textures/moon/8.png" />
+    <file src="files/textures/moon/9.png" />
+    <file src="files/textures/moon/10.png" />
+    <file src="files/textures/moon/11.png" />
+    <file src="files/textures/moon/12.png" />
+    <file src="files/textures/moon/13.png" />
+    <file src="files/textures/moon/14.png" />
+    <file src="files/textures/moon/15.png" />
+    <file src="files/textures/moon/16.png" />
+    <file src="files/textures/moon/17.png" />
+    <file src="files/textures/moon/18.png" />
+    <file src="files/textures/moon/19.png" />
+    <file src="files/textures/moon/20.png" />
+    <download_priority_group>-22</download_priority_group>
+</meta>

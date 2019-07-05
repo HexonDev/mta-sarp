@@ -1,0 +1,8 @@
+<meta>
+    <download_priority_group>-45</download_priority_group>
+    
+    <min_mta_version client="1.5.3" server="1.5.3" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+</meta>

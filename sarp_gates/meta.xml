@@ -1,0 +1,4 @@
+<meta>
+	<script src="previewC.lua" type="client"/>
+	<script src="sourceS.lua" type="server"/>
+</meta>

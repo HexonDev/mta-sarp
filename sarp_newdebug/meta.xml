@@ -1,0 +1,14 @@
+<meta>
+    <download_priority_group>-44</download_priority_group>
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <file src="files/index.html" />
+    <file src="files/font-awesome/font-awesome.min.css" />
+    <file src="files/font-awesome/fontawesome-webfont.eot" />
+    <file src="files/font-awesome/fontawesome-webfont.svg" />
+    <file src="files/font-awesome/fontawesome-webfont.ttf" />
+    <file src="files/font-awesome/fontawesome-webfont.woff" />
+    <file src="files/font-awesome/fontawesome-webfont.woff2" />
+</meta>

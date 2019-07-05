@@ -1,0 +1,19 @@
+<meta>
+	<download_priority_group>750</download_priority_group>
+
+	<script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceC.lua" type="client" cache="false" />
+	<script src="sourceS.lua" type="server" />
+
+    <script src="resourcesS.lua" type="server" />
+
+    <script src="jailS.lua" type="server" />
+    <script src="jailC.lua" type="client" cache="false" />
+
+    <export type="shared" function="addAdminCommand" />
+
+    <export http="true" type="server" function="getResourceList" />
+	<export http="true" type="server" function="getResourceInfo" />
+	<export http="true" type="server" function="resourceAction" />
+    <export http="true" type="server" function="restartAllRes" />
+</meta>

@@ -1,0 +1,19 @@
+<meta>
+    <file src="files/pointer.png" />
+    <file src="files/white2.png" />
+    <file src="files/correct.wav" />
+    <file src="files/wrong.wav" />
+    <file src="files/white.png" />
+    
+    <file src="files/RobotoB.ttf" />
+    <file src="files/RobotoL.ttf" />
+    <file src="files/Roboto.ttf" />
+    
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <export type="client" function="startMinigame" />
+    <export type="client" function="stopMinigame" />
+    
+    <min_mta_version client="1.5.5" server="1.5.5" />
+    <download_priority_group>-48</download_priority_group>
+</meta>
